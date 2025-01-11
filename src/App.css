@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "HellixRegular";
+  src: url("../fonts/Hellix-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HellixSemiBold";
+  src: url("../fonts/Hellix-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HellixBold";
+  src: url("../fonts/Hellix-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HellixLight";
+  src: url("../fonts/Hellix-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HellixThin";
+  src: url("../fonts/Hellix-Thin.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "HellixExtraBoldItalic";
+  src: url("../fonts/Hellix-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HellixMedium";
+  src: url("../fonts/Hellix-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: "HellixRegular", serif;
+}

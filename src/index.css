@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Hellix";
+  src: url("@/assets/fonts/Hellix-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Hellix";
+  src: url("@/assets/fonts/Hellix-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Hellix";
+  src: url("@/assets/fonts/Hellix-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Hellix";
+  src: url("@/assets/fonts/Hellix-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Hellix";
+  src: url("@/assets/fonts/Hellix-Thin.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Hellix";
+  src: url("@/assets/fonts/Hellix-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("@/assets/fonts/Hellix-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@layer base {
+  html {
+    font-family: "Hellix", "sans-serif";
+  }
+}
+
+@layer components {
+  .input-box {
+    @apply w-full text-sm border border-primary rounded-lg px-5 py-3 mb-4 focus-within:border-secondary outline-none;
+  }
+
+  .btn-primary {
+    @apply w-full h-[60px] text-sm font-medium bg-secondary rounded-lg text-white hover:bg-primary mt-4 hover:text-secondary;
+  }
+  .effect {
+    @apply transition-opacity duration-500 ease-in-out hover:opacity-75 transform hover:-translate-y-1 hover:scale-110 first-line:cursor-pointer;
+  }
+}
