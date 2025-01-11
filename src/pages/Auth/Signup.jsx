@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ReckonLogo from "@/assets/Group 59.svg";
-import SignUp from "./tab/SignUp";
-import Login from "./tab/login";
+import SignUp from "./tab/SignUp.jsx";
+import Login from "./tab/login.jsx";
 import { useNavigate } from "react-router";
 
 const Signup = () => {
